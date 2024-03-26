@@ -204,7 +204,7 @@ header {
 
 /* Card hover effect */ 
 
-.card:hover, .card:active { transform: translateY(-6px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); -webkit-filter: blur(0px);filter: blur(0px);
+.card-text:hover, .card-text:active { transform: translateY(-6px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); -webkit-filter: blur(0px);filter: blur(0px);
 
 }
 
