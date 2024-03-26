@@ -204,12 +204,12 @@ header {
 
 /* Card hover effect */ 
 
-.card-text:hover, .card-text:active { -webkit-filter: blur(0px);filter: blur(0px);
+.card-text:hover, .card-text:active { -webkit-filter: blur(0px);filter: blur(0px); 
 
 }
 
 
-.card:hover, .card:active { transform: translateY(-6px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+.card:hover, .card:active { transform: translateY(-6px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); scale: 1.1; transition: ease-in-out .6s;
 }
 
 #demo { text-align: center; text-shadow: #333333 3px 4px 2px; margin: 10%; color: aliceblue; font-weight: 800; }
