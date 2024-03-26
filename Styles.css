@@ -129,7 +129,7 @@ background-attachment: fixed;
 
 /* Card style */
 .card {
-    background-color: #052e38cf;
+    background-color: #147f9acf;
    
     border-radius: 8px;
     box-shadow: 0 6px 4px rgba(0, 0, 0, 0.34);
@@ -176,4 +176,38 @@ background-attachment: fixed;
     font-weight: 600;
     color: #ffffff;
     text-shadow: #333333 1px 1px 6px;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
 }
+
+header { 
+
+    position: fixed; 
+    margin-top: 0%;
+    width: 100%;
+    top: 0;  
+    background: rgba(25, 24, 24, 0.5);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 1000; 
+    display: flex; 
+    justify-content: center; }
+
+.header-title { font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 8px; 
+    color: rgba(33, 246, 236, 0.642); 
+    text-shadow: #333333 3px 3px 3px;
+
+}
+
+/* Card hover effect */ 
+
+.card:hover, .card:active { transform: translateY(-6px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); -webkit-filter: blur(0px);filter: blur(0px);
+
+}
+
+#demo { text-align: center; text-shadow: #333333 3px 4px 2px; margin: 10%; color: aliceblue; font-weight: 800; }
+
+#arrow { scale: 0.11; position: absolute; margin-top: -13%; color: aliceblue; margin-right: -40%;}
