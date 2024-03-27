@@ -36,18 +36,23 @@ h1 {
     
 }
 
+#arrowTagline {
+    margin: 20%;
+}
+
 #one {
     background-image: url("pexels-alessandra-20449164(2).webp");
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
+
 
 #two {
     background-image: url("pexels-polina-tankilevitch-3735625(1)-1.webp");
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
    
     
@@ -214,4 +219,5 @@ header {
 
 #demo { text-align: center; text-shadow: #333333 3px 4px 2px; margin: 10%; color: aliceblue; font-weight: 800; }
 
-#arrow { scale: 0.11; position: absolute; margin-top: -13%; color: aliceblue; margin-right: -40%;}
+#arrow { scale: 0.04; position: absolute;margin: 20%; margin-top: -67%;  transform: rotate(-90deg);}
+
