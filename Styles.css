@@ -181,8 +181,7 @@ background-attachment: fixed;
     font-weight: 600;
     color: #ffffff;
     text-shadow: #333333 1px 1px 6px;
-    -webkit-filter: blur(2px);
-    filter: blur(2px);
+ 
 }
 
 header { 
@@ -219,5 +218,5 @@ header {
 
 #demo { text-align: center; text-shadow: #333333 3px 4px 2px; margin: 10%; color: aliceblue; font-weight: 800; }
 
-#arrow { scale: 0.04; position: absolute;margin: 20%; margin-top: -67%;  transform: rotate(-90deg);}
+#arrow { scale: 0.04; position: absolute;margin: 20%; margin-top: -64%;  transform: rotate(90deg);}
 
