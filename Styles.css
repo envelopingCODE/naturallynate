@@ -229,7 +229,7 @@ header {
 
 /* Card hover effect */ 
 
-.card-text:hover, .card-text:active { -webkit-filter: blur(0px);filter: blur(0px); 
+.card-text:focus, .card-text:active { -webkit-filter: blur(0px);filter: blur(0px); 
 
 }
 
