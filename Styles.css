@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'YourHandwrittenFont';
+    src: url('Fonts/Soulgate-d9pyX.otf') format('truetype');
+         font-weight: normal;
+    font-style: normal;
+}
+  
 body, html {
   margin: 0;
   padding: 0;
@@ -173,6 +180,7 @@ background-attachment: fixed;
 /* Card title */
 .card-title {
     font-size: 20px;
+    font-family: ;
     font-weight: bold;
     margin-bottom: 8px;
     color: aquamarine;
@@ -204,7 +212,8 @@ header {
     display: flex; 
     justify-content: center; }
 
-.header-title { font-size: 20px; 
+.header-title { font-size: 30px; 
+    font-family: YourHandWrittenFont;
     font-weight: bold; 
     margin-bottom: 8px; 
     color: rgba(33, 246, 236, 0.642); 
