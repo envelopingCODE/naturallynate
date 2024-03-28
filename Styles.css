@@ -78,7 +78,7 @@ h1 {
     background-image: url("pexels-tom-fisk-5992512(1).webp");
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:center;
 
 }
 
@@ -110,7 +110,7 @@ h1 {
 }
 
 #eco {
-    margin-bottom: 40%;
+    margin-bottom: ;
 }
 /*.parallax-image {
  background-image: url('pexels-alessandra-20449164(1).webp');
