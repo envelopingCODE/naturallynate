@@ -32,10 +32,34 @@ section {
     margin-bottom: 1%;
 }
 
+/* Styles for the hamburger menu */
+.lines {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff; /* Change color as needed */
+    margin-bottom: 5px;
+    position: relative;
+    transition: background-color .3s ease;
+  }
+  
+
+  
+
+  .X {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    margin-left: 0px; /* Adjust spacing as needed */
+  }
+    
+  
 
 nav {
-    background-color:rgba(0, 0, 0, 0.606);
-    opacity: 90%;
+    background-color:rgb(0, 0, 0);
+    opacity: 80%;
     box-shadow: 0 0px 10px black;
     position: absolute;
     right: 0;
@@ -61,7 +85,7 @@ nav li {
 
 nav a {
     color: white;
-    text-decoration: none;
+    font-size: 1.2em;
 }
 
 .menu-bttn {
@@ -71,11 +95,21 @@ nav a {
     display: flex;
 align-items: center;
 padding:8px 20px;
-background-color: #aeefff00;
-color: #ffffff;
+background-color: #a67e7e00;
+color: #ffffff00;
 font-weight: bolder;
 opacity: 99%;
 }
+
+a {
+    border-bottom: 6px solid rgb(0, 255, 200);
+   text-decoration: none;
+    transition: color 0.3s; /* Add a smooth transition for color change */
+}
+
+a:hover { 
+    color:rgb(56, 147, 175) ;}
+    
 
 h1 {
     font-size: 1.8em;
