@@ -101,6 +101,12 @@ font-weight: bolder;
 opacity: 99%;
 }
 
+.menu-bttn-close {
+background-color:transparent;  
+border-color: none;  
+border: transparent;
+}
+
 a {
     border-bottom: 6px solid rgb(0, 255, 200);
    text-decoration: none;
