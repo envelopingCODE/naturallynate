@@ -103,7 +103,7 @@ opacity: 99%;
 
 .menu-bttn-close {
 background-color:transparent;  
-border-color: none;  
+border-color: transparent;
 border: transparent;
 }
 
@@ -247,7 +247,7 @@ background-attachment: fixed;
     margin: 8px;
 
     width: calc(100% - 32px); /* Full width on mobile */
-    max-width: 340px; /* Max card width */
+    max-width: 600px; /* Max card width */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -277,11 +277,11 @@ background-attachment: fixed;
 
 /* Card title */
 .card-title {
-    font-size: 20px;
+    font-size: 32px;
 
     font-weight: bold;
     margin-bottom: 8px;
-    color: aquamarine;
+    color: rgb(128, 255, 212);
     text-shadow: #333333 3px 3px 3px;
 }
 
@@ -331,7 +331,7 @@ header {
 
 #demo { text-align: center; text-shadow: #333333 3px 4px 2px; margin: 10%; color: aliceblue; font-weight: 800; }
 
-#arrow { scale: 0.04; position: absolute;margin: 20%; margin-top: -64%;  transform: rotate(90deg);}
+#arrow { scale: 0.04; position: absolute;margin: 20%; margin-top: -0%;  transform: rotate(90deg);}
 
 
 /* progress bar */
